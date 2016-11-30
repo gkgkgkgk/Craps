@@ -1,11 +1,15 @@
 class Die {
 
-  public void roll(){
+  private int numDots;
+  void roll(){
+  numDots = (int)(Math.random()*5)+1;
   }
-  public void getNumDots(){
-  }
-  public int numDots(){
+  
+  public int getNumDots(){
+  return numDots;
   }
   
   
+  
+
 }
