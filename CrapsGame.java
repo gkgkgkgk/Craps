@@ -15,7 +15,10 @@ public class CrapsGame
   public int processRoll(int total)
   {
     int result = 1;
-    ...
+    switch (total){
+    case 
+      
+    }
     
     return result;
   }
